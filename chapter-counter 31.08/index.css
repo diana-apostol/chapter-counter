@@ -1,0 +1,52 @@
+body{
+    background-color: #5e3023;
+}
+.text{
+display: flex;
+flex-direction: column;
+margin: auto;
+width: 300px;
+height: 500px;
+background-image: url("background.jpg");
+background-size: cover; 
+
+color:  antiquewhite;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+button{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto; 
+    font-weight: bold;   
+    margin-top: 10px;  
+}
+
+#increment{
+    padding: 10px;
+}
+
+#save{
+    padding: 10px 70px;
+}
+
+#count-el{
+    text-align: center;
+    font-size: 40px;
+}
+
+#title{
+    padding: 20px 20px 0px 20px;
+}
+
+#instructions{
+    padding: 0 10px;
+    text-align: center;
+    font-size: 15px;
+    text-shadow: 0 0 10px black;
+}
+
+#result{
+    text-align: center;
+    text-shadow: 0 0 10px black;
+}
